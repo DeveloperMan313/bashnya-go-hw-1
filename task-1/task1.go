@@ -8,5 +8,5 @@ import (
 func main() {
 	var a, b int64
 	fmt.Scanf("%d\n%d", &a, &b)
-	fmt.Println(math.Sqrt(float64(a*a + b*b)))
+	fmt.Println(math.Hypot(float64(a), float64(b)))
 }
